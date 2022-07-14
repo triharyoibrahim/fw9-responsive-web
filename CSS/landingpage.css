@@ -1,0 +1,10 @@
+.bannerphone {
+  padding-top: 20%;
+  padding-left: 15%;
+}
+.bgimage {
+  background-image: url(../assets/img/landingpage1.png);
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

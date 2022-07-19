@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/fw9-responsive-web/assets/CSS/home.css" />
+  </head>
+  <body>
+    <nav class="zw-nav d-flex justify-content-between mw-100 row">
+      <div class="col-12 col-md-7">
+        <div class="mx-md-5 px-5 mx-0">
+          <span class="spanzwallet">Zwallet</span>
+        </div>
+      </div>
+      <div class="col-12 mx-3 mx-md-0 col-md-5">
+        <div
+          class="d-flex justify-content-md-end justify-content-between align-items-center px-2 px-md-3 mx-2 mx-md-3"
+        >
+          <img
+            src="/fw9-responsive-web/assets/img/robert.png"
+            class="zw-img img-fluid"
+            alt="photoprofile"
+          />
+          <div class="d-flex-column justify-content-center mx-3">
+            <p class="name-zw-nav">Robert Chandler</p>
+            <p class="number-zw-nav">+62 8139 3877 7946</p>
+          </div>
+          <i data-feather="bell"></i>
+        </div>
+      </div>
+    </nav>
+
+    <aside>
+      <div class="row px-2 px-md-5 mx-2 mx-md-5">
+        <div class="col-12 col-md-3 d-flex flex-column">
+          <div class="zw-aside mt-3 ps-3 ps-md-4 pt-3 pt-md-5">
+            <div class="flex-fill d-flex flex-column gap-1 gap-md-4">
+              <div class="zw-hover d-flex">
+                <i data-feather="grid"></i>
+                <p class="ms-3">
+                  <a
+                    href="/fw9-responsive-web/pages/dashboard/home.html"
+                    style="text-decoration: none; color: inherit"
+                    >Dasboard</a
+                  >
+                </p>
+              </div>
+              <div class="zw-hover d-flex">
+                <i data-feather="arrow-up"></i>
+                <p class="ms-1 ms-md-3">
+                  <a
+                    href="/fw9-responsive-web/pages/transfer/transfer.html"
+                    style="text-decoration: none; color: inherit"
+                    >Transfer</a
+                  >
+                </p>
+              </div>
+              <div class="zw-hover d-flex">
+                <i data-feather="plus"></i>
+                <p class="ms-1 ms-md-3">
+                  <a
+                    href="/fw9-responsive-web/pages/topup/topup.html"
+                    style="text-decoration: none; color: inherit"
+                    >Top Up</a
+                  >
+                </p>
+              </div>
+              <div class="zw-hover d-flex">
+                <i data-feather="user"></i>
+                <p class="ms-1 ms-md-3">
+                  <a
+                    href="/fw9-responsive-web/pages/profile/profile.html"
+                    style="text-decoration: none; color: inherit"
+                    >Profile</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="zw-hover d-flex flex-column">
+              <div class="d-flex" style="padding-top: 300px">
+                <i data-feather="log-out"></i>
+                <p class="ms-1 ms-md-3">
+                  <a
+                    href="/fw9-responsive-web/index.html"
+                    style="text-decoration: none; color: inherit"
+                    >logout</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-9 mt-4 d-flex flex-column zw-header">
+          <div class="d-flex">
+            <div class="">
+              <p style="color: #e0e0e0">Balance</p>
+              <p style="font-size: 35px">Rp. 20.000</p>
+              <p style="color: #e0e0e0">081232124323</p>
+              <p style="color: #e0e0e0; font-size: 5px">
+                <a href="./history.html"> History</a>
+              </p>
+            </div>
+            <div
+              class="d-flex flex-column justify-content-center"
+              style="padding-left: 500px"
+            >
+              <button type="button" class="btn btn-light btn-nav">
+                <i data-feather="arrow-up"></i>Transfer
+              </button>
+
+              <button type="button" class="btn btn-light btn-nav mt-4">
+                <i data-feather="plus"></i>Top Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <footer
+      class="wrap-end mt-5"
+      style="background-color: #6379f4; color: #ffff; font-weight: 100"
+    >
+      <div class="d-flex justify-content-between wrap-footer px-5 mx-0 mx-md-5">
+        <p>2020 Zwallet. All right reserved.</p>
+        <div class="d-flex justify-content-end">
+          <p class="me-4">+62 5637 8882 9901</p>
+          <p>contact@zwallet.com</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    feather.replace();
+  </script>
+</html>
